@@ -10,4 +10,4 @@ Resource UI:
 https://dribbble.com/shots/9946694-Smart-Home \n
 https://www.uplabs.com/posts/smarth-home-mobile-app-ui
 
-<img src="https://assets.materialup.com/uploads/605b5f87-b442-432e-b835-2031d924e7b3/preview.gif">
+<img src="https://github.com/sulthanalihsan/smart_home_UI/blob/master/preview.gif?raw=true">
