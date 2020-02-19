@@ -11,3 +11,6 @@ https://dribbble.com/shots/9946694-Smart-Home <br>
 https://www.uplabs.com/posts/smarth-home-mobile-app-ui
 
 <img src="https://github.com/sulthanalihsan/smart_home_UI/blob/master/preview.gif?raw=true">
+
+<img src="https://github.com/sulthanalihsan/smart_home_UI/blob/master/result.gif?raw=true">
+
