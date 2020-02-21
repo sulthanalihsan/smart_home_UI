@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_home_workshop_latihan/my_home_page.dart';
+import 'package:smart_home_workshop_latihan/home_page.dart';
 
 import 'common/colors.dart';
 import 'common/sizes.dart';

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'common/colors.dart';
 import 'common/sizes.dart';
-import 'my_home_page.dart';
+import 'home_page.dart';
 
 class Lamp extends StatelessWidget {
   final BrightState brightState;
