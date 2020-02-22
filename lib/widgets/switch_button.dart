@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:smart_home_workshop_latihan/home_page.dart';
+import 'package:smart_home_workshop_latihan/screens/home_page.dart';
 
-import 'common/colors.dart';
-import 'common/sizes.dart';
+import '../common/colors.dart';
+import '../common/sizes.dart';
 
 class SwitchButton extends StatelessWidget {
   final Function changeColor;
@@ -87,7 +87,7 @@ class SwitchButton extends StatelessWidget {
     );
   }
 
-  Column brightsButton(BuildContext context) {
+  Widget brightsButton(BuildContext context) {
     return Column(
       children: <Widget>[
         Text(
@@ -138,7 +138,7 @@ class SwitchButton extends StatelessWidget {
     );
   }
 
-  Column onOffButton(BuildContext context) {
+  Widget onOffButton(BuildContext context) {
     return Column(
       children: <Widget>[
         Text(

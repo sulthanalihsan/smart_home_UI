@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'home_page.dart';
+import 'package:smart_home_workshop_latihan/screens/home_page.dart';
 
 void main() => runApp(MyApp());
 

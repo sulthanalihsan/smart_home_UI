@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'common/colors.dart';
-import 'common/sizes.dart';
-import 'home_page.dart';
+import 'package:smart_home_workshop_latihan/screens/home_page.dart';
+import '../common/colors.dart';
+import '../common/sizes.dart';
 
 class Lamp extends StatelessWidget {
   final BrightState brightState;
@@ -16,7 +15,7 @@ class Lamp extends StatelessWidget {
     return Center(
       child: Column(
         children: <Widget>[
-          BulbCable(),
+          CableBulb(),
           FittingBulb(),
           Bulb(
             brightState: brightState,
@@ -85,8 +84,8 @@ class FittingBulb extends StatelessWidget {
   }
 }
 
-class BulbCable extends StatelessWidget {
-  const BulbCable({
+class CableBulb extends StatelessWidget {
+  const CableBulb({
     Key key,
   }) : super(key: key);
 
