@@ -15,8 +15,8 @@ class Lamp extends StatelessWidget {
     return Center(
       child: Column(
         children: <Widget>[
-          CableBulb(),
-          FittingBulb(),
+          Cable(),
+          Fitting(),
           Bulb(
             brightState: brightState,
             colorState: colorState,
@@ -71,7 +71,7 @@ class Bulb extends StatelessWidget {
   }
 }
 
-class FittingBulb extends StatelessWidget {
+class Fitting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -84,8 +84,8 @@ class FittingBulb extends StatelessWidget {
   }
 }
 
-class CableBulb extends StatelessWidget {
-  const CableBulb({
+class Cable extends StatelessWidget {
+  const Cable({
     Key key,
   }) : super(key: key);
 

@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:smart_home_workshop_latihan/common/colors.dart';
 import 'package:smart_home_workshop_latihan/common/sizes.dart';
-import 'package:smart_home_workshop_latihan/widgets/lamp.dart';
+import 'package:smart_home_workshop_latihan/widgets/lantern.dart';
 import 'package:smart_home_workshop_latihan/widgets/switch_button.dart';
-
-
 
 
 enum ColorState { YELLOW, BLUE }
@@ -57,8 +55,8 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          bulbBackground(context),
-          titleText(),
+          lantern(context),
+          title(),
           SwitchButton(
             changeColor: changeColor,
             colorState: color,
@@ -72,9 +70,10 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget bulbBackground(BuildContext context) {
+  Widget lantern(BuildContext context) {
     return Stack(
           children: <Widget>[
+            //lantern background
             AnimatedContainer(
               duration: Duration(milliseconds: 500),
               height: Sizes.height(context) * 0.6,
@@ -96,7 +95,7 @@ class _HomePageState extends State<HomePage> {
         );
   }
 
-  Widget titleText() => Padding(
+  Widget title() => Padding(
         padding: const EdgeInsets.all(26.0),
         child: Text(
           'Round Lanterns \nLamp',
