@@ -5,6 +5,7 @@ Tanggal 23 Feb 2020
 
 https://www.dicoding.com/events/2979
 
+Flutter with Lifting state up
 
 Resource UI: <br>
 https://dribbble.com/shots/9946694-Smart-Home <br>
